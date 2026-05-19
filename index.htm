@@ -50,7 +50,7 @@
       inset: 0;
       z-index: -2;
       overflow: hidden;
-      background: #eeeeee;
+      background: transparent;
     }
 
     .hero-bg video {
@@ -59,21 +59,6 @@
       object-fit: cover;
       object-position: center;
       display: block;
-    }
-
-    .hero-bg::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      z-index: 1;
-      background: linear-gradient(
-        90deg,
-        rgba(238, 238, 238, 0.96) 0%,
-        rgba(238, 238, 238, 0.88) 34%,
-        rgba(238, 238, 238, 0.44) 62%,
-        rgba(238, 238, 238, 0.08) 100%
-      );
-      pointer-events: none;
     }
 
     .container {
